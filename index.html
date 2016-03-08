@@ -409,12 +409,12 @@
 $(document).ready(function(){ 
 
     var _scroll = true, _timer = false, _floatbox = $("#contact_form"), _floatbox_opener = $(".contact-opener") ;
-    _floatbox.css("right", "-350px"); //initial contact form position
+    _floatbox.css("right", "-330px"); //initial contact form position
     
     //Contact form Opener button
     _floatbox_opener.click(function(){
         if (_floatbox.hasClass('visiable')){
-            _floatbox.animate({"right":"-350px"}, {duration: 300}).removeClass('visiable');
+            _floatbox.animate({"right":"-330px"}, {duration: 300}).removeClass('visiable');
         }else{
            _floatbox.animate({"right":"0px"},  {duration: 300}).addClass('visiable');
         }
