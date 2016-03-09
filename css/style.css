@@ -81,7 +81,7 @@ hr {
     background-position: center center;
     background-size: cover;
     margin-top: 72px;
-    min-height: 350px;
+    min-height: 300px;
     padding-top: 0;
     text-align: center;
     width: 100%;
@@ -109,16 +109,16 @@ hr {
 }
 #headerwrap h1 {
     color: white;
-    font-size: 70px;
+    font-size: 50px;
     font-weight: 300;
     letter-spacing: 3px;
-    line-height: 77px;
-    margin-bottom: 18px;
-    margin-top: 100px;
+    line-height: 70px;
+    margin-bottom: 20px;
+    margin-top: 60px;
 }
 #headerwrap h2 {
     color: white;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 700;
     letter-spacing: 2px;
     margin: 0;
@@ -195,7 +195,7 @@ hr {
 h5.footer {
     color: #d0d0d0;
     font-weight: bold;
-    margin-left: 25px;
+    margin-left: 0px;
     text-align: left;
     text-transform: uppercase;
 }
@@ -702,8 +702,8 @@ iframe {
     transition: all 1s ease 0s;
 }
 .bb-aspect {
-    height: 225px;
-    margin: 5px;
+    height: 150px;
+    margin: 5px 5px 0 0px;
     opacity: 0.9;
     padding: 13px;
     transition: all 0.3s ease 0s;
@@ -719,6 +719,26 @@ iframe {
     padding: 25px !important;
     width: 48%;
 }
+
+.bb-aspect1 {
+    height: 150px;
+    margin: 5px 5px 0 0px;
+    opacity: 0.9;
+    padding: 13px;
+    transition: all 0.3s ease 0s;
+    width: 30%;
+}
+.bb-aspect1 h4 {
+    transition: all 0.3s ease 0s;
+}
+.bb-aspect1:hover {
+  /*  background-color: #fefefe;*/
+    /*border: 1px solid #bf726a;*/
+    opacity: 1;
+    padding: 25px !important;
+    width: 30%;
+}
+
 .bb-aspect:hover h4 {
 }
 .bb-aspect:hover .home-icon {
@@ -854,8 +874,8 @@ iframe {
     top: -48px;
 }
 #headerwrap h1 {
-    font-size: 32px !important;
-    line-height: 42px;
+    font-size: 26px !important;
+    line-height: 38px;
     margin-top: 120px;
 }
 #headerwrap h2 {
@@ -978,8 +998,8 @@ iframe {
     text-align: center !important;
 }
 #headerwrap h1 {
-    font-size: 60px !important;
-    margin-top: 55px !important;
+    font-size: 40px !important;
+    margin-top: 20px !important;
 }
 #headerwrap h2 {
     font-size: 32px !important;
@@ -1001,7 +1021,12 @@ iframe {
 }
 .bb-aspect {
     background: #f7f7f7 none repeat scroll 0 0;
-    height: 315px;
+    height: 255px;
+}
+.bb-aspect1 {
+    background: #f7f7f7 none repeat scroll 0 0;
+    height: 275px;
+    margin:15px 15px; 
 }
 #fixedForBetaBulls img {
     color: red;
@@ -1028,7 +1053,14 @@ iframe {
 }
 .right-col {
     background: none;
-    min-height: 2050px;
+    min-height: 1750px;
+    overflow: hidden;
+    border-left:1px #ccc solid;
+    padding: 0 15px;
+}
+.right-col1 {
+    background: none;
+    min-height: 850px;
     overflow: hidden;
     border-left:1px #ccc solid;
     padding: 0 15px;
@@ -1038,11 +1070,11 @@ iframe {
     padding: 0;
 }
 .floating-form {
-    background: #fcf4c7 none repeat scroll 0 0;
+    background: #f2f9fc none repeat scroll 0 0;
     border: 1px solid #ccc;
     font: 13px "Lato",arial;
-    margin-top: 0px;
-    padding: 10px 25px;
+    margin-top: 10px;
+    padding: 15px 25px 10px 25px;
     z-index: 9999;
 }
 .floating-form label {
@@ -1093,7 +1125,7 @@ iframe {
     width: 120px;
 }
 .floating-form input.input-field {
-    width: 68%;
+    width: 72%;
 }
 .floating-form input.input-field, .floating-form .tel-number-field, .floating-form .textarea-field, .floating-form .select-field {
     border: 1px solid #c2c2c2;
