@@ -89,6 +89,9 @@ hr {
 .headerwrap-main {
     background: rgba(0, 0, 0, 0) url("../img/header-bg.jpg") no-repeat scroll center top;
 }
+.maintenance-support {
+    background: rgba(0, 0, 0, 0) url("../img/maintenance-support.jpg") no-repeat scroll center top;
+}
 .headerwrap-customswdev {
     background: rgba(0, 0, 0, 0) url("../img/header-bg-custom.jpg") no-repeat scroll center top;
 }
