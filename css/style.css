@@ -92,6 +92,9 @@ hr {
 .maintenance-support {
     background: rgba(0, 0, 0, 0) url("../img/maintenance-support.jpg") no-repeat scroll center top;
 }
+.custom-soft-dev{
+    background: rgba(0, 0, 0, 0) url("../img/custom-soft-dev.jpg") no-repeat scroll center top;   
+}
 .headerwrap-customswdev {
     background: rgba(0, 0, 0, 0) url("../img/header-bg-custom.jpg") no-repeat scroll center top;
 }
