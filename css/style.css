@@ -718,6 +718,9 @@ iframe {
 .bb-aspect h4 {
     transition: all 0.3s ease 0s;
 }
+.bb-aspect p {
+    height: 125px;
+}
 .bb-aspect:hover {
   /*  background-color: #fefefe;*/
     /*border: 1px solid #bf726a;*/
@@ -1066,7 +1069,7 @@ iframe {
 }
 .right-col1 {
     background: none;
-    min-height: 850px;
+    min-height: 750px;
     overflow: hidden;
     border-left:1px #ccc solid;
     padding: 0 15px;
