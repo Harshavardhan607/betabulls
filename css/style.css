@@ -92,6 +92,9 @@ hr {
 .maintenance-support {
     background: rgba(0, 0, 0, 0) url("../img/maintenance-support.jpg") no-repeat scroll center top;
 }
+.mobile-enablement{
+    background: rgba(0, 0, 0, 0) url("../img/mobile-enablement.jpg") no-repeat scroll center top;   
+}
 .custom-soft-dev{
     background: rgba(0, 0, 0, 0) url("../img/custom-soft-dev.jpg") no-repeat scroll center top;   
 }
@@ -1029,7 +1032,7 @@ iframe {
     padding: 13px;
 }
 .bb-aspect {
-    background: #ededed none repeat scroll 0 0;
+    background: #fff none repeat scroll 0 0;
     height: 255px;
 }
 .bb-aspect1 {
