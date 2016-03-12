@@ -16,6 +16,10 @@
 		padding: 25px 5px;
 		/*background: url('../img/dot.gif') left 45px repeat-x;*/
 	}
+	#timeline  li{
+		padding-top: 35px !important;
+	
+	}
 		#dates {
 			width: 100%;
 			height: 60px;
