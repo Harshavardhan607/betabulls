@@ -1206,3 +1206,12 @@ iframe {
     margin: 5px 15px;
     overflow: hidden;
 }
+.bck-contact{
+    background: #f2f9fc;
+    margin:0;
+    padding: 0; 
+}
+.bck-contact h3{
+    padding:10px 0 0px 10px;
+    margin:0;
+}
