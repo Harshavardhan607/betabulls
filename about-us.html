@@ -91,7 +91,7 @@
                             </li>
                                 
                                 <!--<li class="" typeof="sioc:Page" >
-                                    <a href="risk-free-trial.html" property="dc:title">RISK FREE TRIAL</a>        
+                                    <a href="risk-free-trial" property="dc:title">RISK FREE TRIAL</a>        
                             </li>-->
                                         
                                 <li typeof="sioc:Page" class="">
@@ -354,7 +354,7 @@ $(document).ready(function(){
                     //reset values in all input fields
                     $("#contact_form  input[required=true], #contact_form textarea[required=true]").val(''); 
                 }
-                $("#contact_form #contact_results").hide().html(output).slideDown();
+                $("#contact_form #contact_results").hide()(output).slideDown();
             }, 'json');
         }
     });
