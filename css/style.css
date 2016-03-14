@@ -1215,3 +1215,7 @@ iframe {
     padding:10px 0 0px 10px;
     margin:0;
 }
+
+.modal-backdrop{
+        z-index: 0;
+    }

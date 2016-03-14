@@ -99,7 +99,7 @@
                             </li>
                                         
                                 <li>
-                                    <a href="#contact" class="pricing-signup">
+                                     <a href="#contact" data-toggle="modal" data-target="#myModal" class="pricing-signup">
                                     <!-- iconmonstr START --><svg id="emailIcon" class="email-icon-header" rel="tipsy" undefined version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
                                     <path id="email-icon" d="M170.544,239.052L50,146.454v213.142L170.544,239.052z M460.928,103.407H51.416l204.593,157.162L460.928,103.407z M313.355,260.696l-57.364,43.994l-57.454-44.135L50.5,408.593h410.751L313.355,260.696z M341.367,239.212L462,359.845V146.693L341.367,239.212z"/></svg><!-- iconmonstr END -->
                                     </a>
@@ -289,7 +289,7 @@
     <h3>Please Contact Us</h3>
     <hr/>
 
-    <iframe src="https://form.jotform.me/60712670748459" style="border: 0; margin-top:-10px !important;" height="620px" width="350"></iframe>
+    <iframe src="https://form.jotform.me/60712670748459" style="border: 0; margin-top:-10px !important;"  height="673px" width="350" ></iframe>
 </div>
 <!-- contact form end -->
 <hr/>
@@ -477,8 +477,26 @@ $(document).ready(function(){
             $().timelinr()
         });
     </script>
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Contact us</h4>
+      </div>
+      <div class="modal-body">
+        <iframe src="https://form.jotform.me/60712670748459" style="border: 0; margin-top:-10px !important;"  height="653px" width="100%" ></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 </body>
 </html>
+
 
 
 
