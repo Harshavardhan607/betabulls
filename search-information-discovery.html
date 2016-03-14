@@ -51,7 +51,7 @@
         <div class="header pure-u-1">
             <div class="pure-menu pure-menu-open pure-menu-fixed pure-menu-horizontal">
              <div class="navbar-header">
-              <a itemscope itemtype="http://schema.org/Organization" href="index.html"><span itemprop="name" class="pure-menu-heading">BETA<span itemscope itemtype="http://schema.org/ImageObject">
+              <a itemscope itemtype="http://schema.org/Organization" href="index"><span itemprop="name" class="pure-menu-heading">BETA<span itemscope itemtype="http://schema.org/ImageObject">
                             <!-- Generator: Adobe Illustrator 17.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
                             <svg itemprop="logo" version="1.1" id="betabulls-svg-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                             viewBox="0 0 158.8 155.3" enable-background="new 0 0 158.8 155.3" xml:space="preserve">
@@ -84,19 +84,19 @@
                             <ul class="nav navbar-nav">
             
                                 <li class="" >
-                                    <a href="index.html">HOME</a>
+                                    <a href="index">HOME</a>
                             </li>
                                         
                             <li typeof="sioc:Page" class="">
-                                    <a href="about-us.html" property="dc:title">ABOUT US</a>
+                                    <a href="about-us" property="dc:title">ABOUT US</a>
                             </li>
                                 
                                 <!--<li class="" typeof="sioc:Page" >
-                                    <a href="risk-free-trial.html" property="dc:title">RISK FREE TRIAL</a>        
+                                    <a href="risk-free-trial" property="dc:title">RISK FREE TRIAL</a>        
                             </li>-->
                                         
                                 <li typeof="sioc:Page" class="">
-                                    <a href="testimonials.html" property="dc:title">TESTIMONIALS</a>
+                                    <a href="testimonials" property="dc:title">TESTIMONIALS</a>
                             </li>
                                         
                                 <li>
@@ -357,7 +357,7 @@ $(document).ready(function(){
                     //reset values in all input fields
                     $("#contact_form  input[required=true], #contact_form textarea[required=true]").val(''); 
                 }
-                $("#contact_form #contact_results").hide().html(output).slideDown();
+                $("#contact_form #contact_results").hide()(output).slideDown();
             }, 'json');
         }
     });
