@@ -198,8 +198,12 @@ hr {
     color: #ffffff;
     font-size: medium;
     letter-spacing: 0.1em;
-    margin: 0 37px 10px;
+    margin: 0 10px 10px 0;
     padding: 5px;
+    width: 18%;
+}
+.bb-footer p{
+    line-height: 18px;
 }
 h5.footer {
     color: #d0d0d0;
@@ -738,7 +742,7 @@ iframe {
     opacity: 0.9;
     padding: 13px;
     transition: all 0.3s ease 0s;
-    width: 30%;
+    width: 30.5% !important;
 }
 .bb-aspect1 h4 {
     transition: all 0.3s ease 0s;
@@ -748,7 +752,7 @@ iframe {
     /*border: 1px solid #bf726a;*/
     opacity: 1;
     padding: 25px !important;
-    width: 30%;
+    width: 30.5%;
 }
 
 .bb-aspect:hover h4 {
@@ -844,7 +848,10 @@ iframe {
     width: 531px;
 }
 #f a {
-    color: #7b7b7b;
+    color: #dedede;
+}
+ul.footer li{
+    margin:8px 0px;
 }
 .mute {
     opacity: 0.7;
