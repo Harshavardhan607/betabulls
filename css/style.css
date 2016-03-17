@@ -1225,4 +1225,50 @@ ul.footer li{
 
 .modal-backdrop{
         z-index: 0;
+}
+    
+.feed-b p{
+    background: #0087c6;
+    color: #fff;
+    padding:10px 15px;
+    border-radius: 6px; 
+}
+.feed-b span{
+   font-weight: bold;
+}
+
+@media screen and (min-width:200px) and (max-width:700px) {
+    .bb-aspect1{
+        width: 97% !important;
+        margin: 10px 0;
+        height: 300px !important;
+    }
+    .bb-footer{
+        width: 100% !important;
+    }
+}
+@media screen and (min-width:701px) and (max-width:900px) {
+    .bb-aspect1{
+        width: 45% !important;
+        height: 300px !important;
+    }
+    .bb-footer{
+        width: 48% !important;
+    }
+    #headerwrap{
+        min-height: 245px !important;
+    }
+}
+@media screen and (min-width:900px) and (max-width:1250px) {
+ .bb-aspect1{
+        width: 29% !important;
+        height: 300px !important;
+    }
+    .bb-footer{
+        width: 18% !important;
+    }
+
+    }
+    .bb-aspect1 p{
+        color: #333;
     }
